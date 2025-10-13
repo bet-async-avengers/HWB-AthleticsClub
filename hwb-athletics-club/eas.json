@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 15.0.10",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APP_URL": "https://leannep95.sg-host.com/"
+        
+    }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APP_URL": "https://leannep95.sg-host.com/"
+        
+    }
+    },
+    "production": {
+      "android": {
+                "buildType": "app-bundle"
+            },
+            "env": {
+                "EXPO_PUBLIC_APP_URL": "https://leannep95.sg-host.com/"
+                
+            },
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

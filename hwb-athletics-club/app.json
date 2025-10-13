@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "hwb-athletics-club",
+    "slug": "hollywood-athletics-club",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5C2D91"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#5C2D91",
+          "image": "./assets/splash.png",
+          "resizeMode": "cover",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#5C2D91"
+          }
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.betsoftware.hollywoodathleticsclub",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#5C2D91"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.betsoftware.hollywoodathleticsclub"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "EXPO_PUBLIC_APP_URL": "https://www.hollywoodfoundation.com",
+      "eas": {
+        "projectId": "d288d099-6188-4545-8715-1a2bd1294d04",
+        "NODE_ENV": "production"
+      }
+    },
+    "owner": "betsoftware"
+  }
+}

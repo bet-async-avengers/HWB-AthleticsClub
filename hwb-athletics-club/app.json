@@ -45,7 +45,7 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "EXPO_PUBLIC_APP_URL": "https://www.hollywoodfoundation.com",
+      "EXPO_PUBLIC_APP_URL": "https://www.hollywoodathleticsclub.co.za/",
       "eas": {
         "projectId": "d288d099-6188-4545-8715-1a2bd1294d04",
         "NODE_ENV": "production"

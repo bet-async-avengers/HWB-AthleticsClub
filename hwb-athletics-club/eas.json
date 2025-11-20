@@ -8,14 +8,14 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_APP_URL": "https://leannep95.sg-host.com/"
+        "EXPO_PUBLIC_APP_URL": "https://www.hollywoodathleticsclub.co.za/"
         
     }
     },
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_APP_URL": "https://leannep95.sg-host.com/"
+        "EXPO_PUBLIC_APP_URL": "https://www.hollywoodathleticsclub.co.za/"
         
     }
     },
@@ -24,7 +24,7 @@
                 "buildType": "app-bundle"
             },
             "env": {
-                "EXPO_PUBLIC_APP_URL": "https://leannep95.sg-host.com/"
+                "EXPO_PUBLIC_APP_URL": "https://www.hollywoodathleticsclub.co.za/"
                 
             },
       "autoIncrement": true
